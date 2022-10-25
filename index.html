@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustache Club</title>
+    <link rel="icon" href="/assets/icone.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-family: "rubik", sans-serif;
+        color: #3a3a3a;
+      }
+      header {
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(/assets/must.jpeg);
+        background-size: cover;
+        color: #fff;
+      }
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+      }
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+      }
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+      section {
+        padding: 96px 0;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #3a5a40;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+      .header-container {
+        width: 1200px;
+        position: absolute;
+        /* in relation to PARENT size */
+
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* in relation to ELEMENT size */
+      }
+      .header-container-inner {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>logo</div>
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>With Great mustache comes Great responsability</h1>
+          <p>
+            A mustache became a way to assert one's free past, but also to fit
+            in. It became both a symbol of an older-school, tough-guy virility
+            as well as refined way to express new sensitivities and creative
+            personas
+          </p>
+          <a href="#" class="btn">Get MANLY!</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Lorem ipsum</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam nam
+          eveniet asperiores voluptates animi! Harum ullam consequatur
+          aspernatur incidunt fugit repudiandae voluptatem vel error eum? Ullam
+          eius quasi ipsum magni?
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
